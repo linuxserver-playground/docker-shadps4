@@ -15,6 +15,9 @@ upstream:
   notes:
     type: github_release
     repo: shadps4-emu/shadps4-qtlauncher
+  sponsor:
+  - name: shadPS4 (Ko-fi)
+    url: https://ko-fi.com/shadps4
 
 release:
   branch: master
