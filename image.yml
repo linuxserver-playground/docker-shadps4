@@ -10,6 +10,8 @@ upstream:
     type: github_release
     repo: shadps4-emu/shadps4-qtlauncher
     prerelease: true
+    require_assets:
+      - asset: '^shadPS4QtLauncher-linux-qt-.*\.zip$'
   notes:
     type: github_release
     repo: shadps4-emu/shadps4-qtlauncher
